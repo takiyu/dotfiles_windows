@@ -1,0 +1,4 @@
+my-vim-snippets
+===================
+
+Neosnippet-snippetsを編集した自分用スニペット

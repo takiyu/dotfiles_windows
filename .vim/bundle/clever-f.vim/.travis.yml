@@ -1,0 +1,7 @@
+language: ruby
+dist: trusty
+rvm:
+  - 1.9.3
+script: rake ci
+install:
+    - cd test && bundle install

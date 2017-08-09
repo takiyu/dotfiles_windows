@@ -1,0 +1,231 @@
+snippet if
+abbr    if(){}
+    if (${1:#:condition}) {
+        ${0:TARGET}
+    }
+
+snippet else
+    else {
+        ${0:TARGET}
+    }
+
+snippet else if
+abbr    elsif
+    else if (${1:#:condition}) {
+        ${0:TARGET}
+    }
+
+snippet if else
+abbr    if(){} else{}
+    if (${1:#:condition}) {
+        ${2:TARGET}
+    } else{
+        ${3}
+    }
+
+snippet for
+abbr    for(){}
+    for (${1} = 0; $1 < ${2}; $1++) {
+        ${0:TARGET}
+    }
+
+snippet for int
+abbr    for(int){}
+    for (int ${1} = 0; $1 < ${2}; $1++) {
+        ${0:TARGET}
+    }
+
+snippet for int 2
+abbr    int; for(){}
+    int ${1};
+    for ($1 = 0; $1 < ${2}; $1++) {
+        ${0:TARGET}
+    }
+
+snippet while
+abbr    while(){}
+    while (${1:#:condition}) {
+        ${0:TARGET}
+    }
+
+snippet do_while
+alias   do
+    do {
+        ${0:TARGET:code}
+    } while(${1:#:condition});
+
+snippet switch
+abbr    switch(){}
+    switch (${1:#:var}) {
+    case ${2:#:val}:
+        ${0:TARGET}
+        break;
+    }
+
+snippet case
+abbr    case
+    case ${1:#:val}:
+    ${0:TARGET};
+    break;
+
+snippet function
+alias   func
+abbr    func(){}
+    ${1:void} ${2:#:func_name}(${3:#:args}) {
+        ${0:TARGET}
+    }
+
+snippet struct
+abbr    struct{}
+    struct ${1:#:name} {
+        ${0:TARGET:data}
+    };
+
+# Typedef struct
+snippet struct_typedef
+    typedef struct ${1:#:name} {
+        ${0:TARGET:data}
+    };
+
+snippet enum
+abbr    enum{}
+    enum ${1:#:name} {
+        ${0:TARGET}
+    };
+
+# hard-tab is necessary; C indent doesn't support this.
+snippet main
+    int main(int argc, char const* argv[]) {
+        ${0:TARGET}
+        return 0;
+    }
+
+# #include <...>
+snippet inc
+alias   #inc, #include
+    #include <${1:stdio}.h>${0}
+# #include "..."
+snippet inc2
+alias   #inc2, #include2
+    #include "${1}.h"${0}
+
+snippet ifndef
+alias   #ifndef
+abbr #ifndef ... #define ... #endif
+    #ifndef $1
+    #define ${1:#:SYMBOL}
+    #endif${0}
+
+snippet def
+alias   #def, #define
+    #define 
+
+# Include-Guard
+snippet once
+abbr include-guard
+    #ifndef ${1:SYMBOL}
+    #define $1
+
+${0:TARGET}
+    #endif /* end of include guard */
+
+# Ternary conditional operator
+snippet conditional
+    (${1:#:condition}) ? ${2:#:a} : ${3:#:b}
+
+snippet typedef
+    typedef ${1:#:base_type} ${2:#:custom_type};
+
+snippet printf
+abbr    printf("...\n", ...);
+    printf("${1}\n", ${2});
+
+snippet scanf
+abbr    scanf("...", ...);
+    scanf("${1}", &${2});
+
+snippet fprintf
+abbr    fprintf(..., "...\n", ...);
+    fprintf(${1:stderr}, "${2}\n"${3});
+
+snippet comment
+alias /*
+    /*${1:#:comment}*/
+    ${0}
+
+snippet sizeof
+alias size
+    sizeof(${0:TARGET})
+
+snippet helloworld
+    #include <stdio.h>
+    int main(int argc, char const* argv[]){
+        puts("hello, world!");
+        return 0;
+    }
+
+snippet fopen
+abbr fopen("...", "...");
+    fopen("${1:PATH}", "${2:MODE}");
+    ${0:TARGET}
+    fclose(${3:FD});
+
+snippet fgets
+abbr fgets(row, length, file);
+    fgets(${0:ROW}, ${1:LENGTH}, ${2:FILE});
+
+#========my snippets========
+snippet file_write_operation
+    FILE *${1:fp};
+    if ((fp = fopen(${1:#:FILE}, "w")) == NULL) {
+        fprintf(stderr, "Error: cannot open file %s\n", $1);
+        exit(1);
+    }
+
+    fprintf($1, "text\n");
+
+    fputc('a', $1);
+
+    fclose($1);
+    ${0:TARGET}
+
+snippet file_read_operation
+    FILE *${1:fp};
+    if ((fp = fopen(${1:#:FILE}, "r")) == NULL) {
+        fprintf(stderr, "Error: cannot open file %s\n", $1);
+        exit(1);
+    }
+
+    int c;
+    while ((c = fgetc($1)) != EOF) { }
+
+    while (fscanf($1, "", &) != EOF) { }
+
+    fclose($1);
+    ${0:TARGET}
+
+snippet va_func
+alias kahen_func
+    #include <stdarg.h>
+    void va_func(int num, ...)
+    {
+        int i;
+        va_list va_p;
+
+        va_start(va_p, num);
+        for (i = 0; i < num; i++) {
+            va_arg(va_p, ${1:int});
+            ${0:TARGET}
+        }
+        va_end(va_p);
+        return;
+    }
+
+snippet malloc_with_err
+    ${1:#:array} = malloc(sizeof(${2}) * ${3});
+    if ($1 == NULL) {
+        fprintf(stderr, "Cannot alocate memory.");
+        exit(1);
+    }
+    free($1);
+

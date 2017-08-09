@@ -1,0 +1,142 @@
+snippet print
+	(print ${1})
+snippet format
+	(format t "${1}")
+snippet format-object
+	(format t "~S~%" ${1})
+snippet read
+	(read)
+
+snippet random-state
+alias   srand
+	(setf  *random-state*  (make-random-state  t))
+snippet random
+abbr    from 0 to n-1
+	(random ${1})
+
+snippet newline-char
+	~%
+snippet newline-char2
+	~&
+
+snippet oddp
+abbr    2n+1
+	(oddp ${1})
+snippet evenp
+abbr    2n
+	(evenp ${1})
+snippet numberp
+	(numberp ${1})
+snippet listp
+	(listp ${1})
+
+snippet equal
+abbr    equal-deep
+	(equal ${1} ${2})
+
+snippet and
+	(and ${1} ${2})
+snippet or_
+	(or ${1} ${2})
+snippet progn
+	(progn ${1} ${2})
+
+snippet expt
+alias   jijo
+	(expt ${1} 2)
+
+snippet defun
+	(defun ${1} (${2})
+		${3}
+	)
+snippet cons
+	(cons ${1} ${2})
+snippet list
+	(list ${1} ${2})
+snippet append
+	(append ${1} ${2})
+
+snippet last
+	(last ${1})
+snippet nth
+	(nth ${1} ${2})
+snippet first
+alias   car
+	(first ${1})
+snippet second
+	(second ${1})
+snippet third
+	(third ${1})
+snippet rest
+alias   cdr
+	(rest ${1})
+
+snippet remove
+	(remove ${1} ${2})
+snippet null
+	(null ${1})
+snippet length
+	(length ${1})
+snippet count
+	(count ${1} ${2})
+
+snippet cond
+	(cond
+		(${1} ${2})
+		(${3} ${4})
+		(t ${5})
+	)
+snippet if-else
+	(if ${1} ${2} ${3})
+snippet case
+	(case ${1}
+		(${2} ${3})
+		(${4} ${5})
+		(t ${6})
+	)
+
+snippet setf
+	(setf ${1} ${2})
+ 
+snippet lambda
+	(lambda(${1}) ${2})
+snippet mapcar1
+	(mapcar #'${1} ${2})
+snippet mapcar2
+	(mapcar #'${1} ${2} ${3})
+snippet mapcar-lambda1
+	(mapcar #'(lambda(${1})
+		${2}
+	) ${3} )
+snippet mapcar-lambda2
+	(mapcar #'(lambda(${1} ${2})
+		${3}
+	) ${4} ${5} )
+snippet find-if
+	(find-if #'${1} ${2})
+snippet remove-if
+	(remove-if #'${1} ${2})
+snippet remove-if-not
+	(remove-if-not #'${1} ${2})
+
+snippet every
+alias   all
+	(every #'${1} ${2})
+snippet some
+alias   any
+	(some #'${1} ${2})
+snippet reduce
+	(reduce #'${1} ${2})
+
+
+snippet member
+	(member ${1} ${2})
+snippet intersection
+alias   group-seki
+	(intersection ${1} ${2})
+snippet union
+alias   group-wa
+	(union ${1} ${2})
+snippet set-difference
+alias   group-sa
+	(set-difference ${1} ${2})
