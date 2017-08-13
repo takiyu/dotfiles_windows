@@ -1,0 +1,250 @@
+2017-08-14 01:12:05 ====== Initializing ======
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#^+l::Manager_lockWorkStation()
+2017-08-14 01:12:05   Hotkey: #^+l -> Manager_lockWorkStation()
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#q::Reload
+2017-08-14 01:12:05   Hotkey: #q -> Reload
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+q::ExitApp
+2017-08-14 01:12:05   Hotkey: #+q -> ExitApp
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#w::Manager_activateMonitor(1)
+2017-08-14 01:12:05   Hotkey: #w -> Manager_activateMonitor(1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+w::Manager_setWindowMonitor(1)
+2017-08-14 01:12:05   Hotkey: #+w -> Manager_setWindowMonitor(1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#f::Manager_maximizeWindow()
+2017-08-14 01:12:05   Hotkey: #f -> Manager_maximizeWindow()
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#t::View_toggleFloating()
+2017-08-14 01:12:05   Hotkey: #t -> View_toggleFloating()
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#h::Monitor_activateView(<)
+2017-08-14 01:12:05   Hotkey: #h -> Monitor_activateView(<)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#l::Monitor_activateView(>)
+2017-08-14 01:12:05   Hotkey: #l -> Monitor_activateView(>)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+h::Monitor_setWindowTag(<)
+2017-08-14 01:12:05   Hotkey: #+h -> Monitor_setWindowTag(<)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+l::Monitor_setWindowTag(>)
+2017-08-14 01:12:05   Hotkey: #+l -> Monitor_setWindowTag(>)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#j::View_activateWindow(+1)
+2017-08-14 01:12:05   Hotkey: #j -> View_activateWindow(+1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#k::View_activateWindow(-1)
+2017-08-14 01:12:05   Hotkey: #k -> View_activateWindow(-1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+j::View_shuffleWindow(+1)
+2017-08-14 01:12:05   Hotkey: #+j -> View_shuffleWindow(+1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+k::View_shuffleWindow(-1)
+2017-08-14 01:12:05   Hotkey: #+k -> View_shuffleWindow(-1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#Enter::View_shuffleWindow(0)
+2017-08-14 01:12:05   Hotkey: #Enter -> View_shuffleWindow(0)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#+c::Manager_closeWindow()
+2017-08-14 01:12:05   Hotkey: #+c -> Manager_closeWindow()
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#9::View_setMFactor(-0.05)
+2017-08-14 01:12:05   Hotkey: #9 -> View_setMFactor(-0.05)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#0::View_setMFactor(+0.05)
+2017-08-14 01:12:05   Hotkey: #0 -> View_setMFactor(+0.05)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#,::View_setMSplit(+1)
+2017-08-14 01:12:05   Hotkey: #, -> View_setMSplit(+1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#.::View_setMSplit(-1)
+2017-08-14 01:12:05   Hotkey: #. -> View_setMSplit(-1)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#Space::View_setLayout(>)
+2017-08-14 01:12:05   Hotkey: #Space -> View_setLayout(>)
+2017-08-14 01:12:05 Processing configured hotkey: Config_hotkey=#o::Run, mintty
+2017-08-14 01:12:05   Hotkey: #o -> Run, mintty
+2017-08-14 01:12:07 ====== Running ======
+2017-08-14 01:13:18 ====== Initializing ======
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#^+l::Manager_lockWorkStation()
+2017-08-14 01:13:18   Hotkey: #^+l -> Manager_lockWorkStation()
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#q::Reload
+2017-08-14 01:13:18   Hotkey: #q -> Reload
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+q::ExitApp
+2017-08-14 01:13:18   Hotkey: #+q -> ExitApp
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#w::Manager_activateMonitor(1)
+2017-08-14 01:13:18   Hotkey: #w -> Manager_activateMonitor(1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+w::Manager_setWindowMonitor(1)
+2017-08-14 01:13:18   Hotkey: #+w -> Manager_setWindowMonitor(1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#f::Manager_maximizeWindow()
+2017-08-14 01:13:18   Hotkey: #f -> Manager_maximizeWindow()
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#t::View_toggleFloating()
+2017-08-14 01:13:18   Hotkey: #t -> View_toggleFloating()
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#h::Monitor_activateView(<)
+2017-08-14 01:13:18   Hotkey: #h -> Monitor_activateView(<)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#l::Monitor_activateView(>)
+2017-08-14 01:13:18   Hotkey: #l -> Monitor_activateView(>)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+h::Monitor_setWindowTag(<)
+2017-08-14 01:13:18   Hotkey: #+h -> Monitor_setWindowTag(<)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+l::Monitor_setWindowTag(>)
+2017-08-14 01:13:18   Hotkey: #+l -> Monitor_setWindowTag(>)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#j::View_activateWindow(+1)
+2017-08-14 01:13:18   Hotkey: #j -> View_activateWindow(+1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#k::View_activateWindow(-1)
+2017-08-14 01:13:18   Hotkey: #k -> View_activateWindow(-1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+j::View_shuffleWindow(+1)
+2017-08-14 01:13:18   Hotkey: #+j -> View_shuffleWindow(+1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+k::View_shuffleWindow(-1)
+2017-08-14 01:13:18   Hotkey: #+k -> View_shuffleWindow(-1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#Enter::View_shuffleWindow(0)
+2017-08-14 01:13:18   Hotkey: #Enter -> View_shuffleWindow(0)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#+c::Manager_closeWindow()
+2017-08-14 01:13:18   Hotkey: #+c -> Manager_closeWindow()
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#9::View_setMFactor(-0.05)
+2017-08-14 01:13:18   Hotkey: #9 -> View_setMFactor(-0.05)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#0::View_setMFactor(+0.05)
+2017-08-14 01:13:18   Hotkey: #0 -> View_setMFactor(+0.05)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#,::View_setMSplit(+1)
+2017-08-14 01:13:18   Hotkey: #, -> View_setMSplit(+1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#.::View_setMSplit(-1)
+2017-08-14 01:13:18   Hotkey: #. -> View_setMSplit(-1)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#Space::View_setLayout(>)
+2017-08-14 01:13:18   Hotkey: #Space -> View_setLayout(>)
+2017-08-14 01:13:18 Processing configured hotkey: Config_hotkey=#o::Run, mintty
+2017-08-14 01:13:18   Hotkey: #o -> Run, mintty
+2017-08-14 01:13:19 Window ahk_id 0xc059c process '' doesn't match expected 'bugn.exe', forgetting this window
+2017-08-14 01:13:19 ====== Running ======
+2017-08-14 01:14:23 ====== Cleaning up ======
+2017-08-14 01:14:24 ====== Exiting bug.n ======
+2017-08-14 01:14:47 ====== Initializing ======
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#^+l::Manager_lockWorkStation()
+2017-08-14 01:14:47   Hotkey: #^+l -> Manager_lockWorkStation()
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#q::Reload
+2017-08-14 01:14:47   Hotkey: #q -> Reload
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+q::ExitApp
+2017-08-14 01:14:47   Hotkey: #+q -> ExitApp
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#w::Manager_activateMonitor(1)
+2017-08-14 01:14:47   Hotkey: #w -> Manager_activateMonitor(1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+w::Manager_setWindowMonitor(1)
+2017-08-14 01:14:47   Hotkey: #+w -> Manager_setWindowMonitor(1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#f::Manager_maximizeWindow()
+2017-08-14 01:14:47   Hotkey: #f -> Manager_maximizeWindow()
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#t::View_toggleFloating()
+2017-08-14 01:14:47   Hotkey: #t -> View_toggleFloating()
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#h::Monitor_activateView(<)
+2017-08-14 01:14:47   Hotkey: #h -> Monitor_activateView(<)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#l::Monitor_activateView(>)
+2017-08-14 01:14:47   Hotkey: #l -> Monitor_activateView(>)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+h::Monitor_setWindowTag(<)
+2017-08-14 01:14:47   Hotkey: #+h -> Monitor_setWindowTag(<)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+l::Monitor_setWindowTag(>)
+2017-08-14 01:14:47   Hotkey: #+l -> Monitor_setWindowTag(>)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#j::View_activateWindow(+1)
+2017-08-14 01:14:47   Hotkey: #j -> View_activateWindow(+1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#k::View_activateWindow(-1)
+2017-08-14 01:14:47   Hotkey: #k -> View_activateWindow(-1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+j::View_shuffleWindow(+1)
+2017-08-14 01:14:47   Hotkey: #+j -> View_shuffleWindow(+1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+k::View_shuffleWindow(-1)
+2017-08-14 01:14:47   Hotkey: #+k -> View_shuffleWindow(-1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#Enter::View_shuffleWindow(0)
+2017-08-14 01:14:47   Hotkey: #Enter -> View_shuffleWindow(0)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#+c::Manager_closeWindow()
+2017-08-14 01:14:47   Hotkey: #+c -> Manager_closeWindow()
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#9::View_setMFactor(-0.05)
+2017-08-14 01:14:47   Hotkey: #9 -> View_setMFactor(-0.05)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#0::View_setMFactor(+0.05)
+2017-08-14 01:14:47   Hotkey: #0 -> View_setMFactor(+0.05)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#,::View_setMSplit(+1)
+2017-08-14 01:14:47   Hotkey: #, -> View_setMSplit(+1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#.::View_setMSplit(-1)
+2017-08-14 01:14:47   Hotkey: #. -> View_setMSplit(-1)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#Space::View_setLayout(>)
+2017-08-14 01:14:47   Hotkey: #Space -> View_setLayout(>)
+2017-08-14 01:14:47 Processing configured hotkey: Config_hotkey=#o::Run, mintty ~
+2017-08-14 01:14:47   Hotkey: #o -> Run, mintty ~
+2017-08-14 01:14:48 Window ahk_id 0x1b0546 process '' doesn't match expected 'bugn.exe', forgetting this window
+2017-08-14 01:14:49 ====== Running ======
+2017-08-14 01:14:58 ====== Cleaning up ======
+2017-08-14 01:14:59 ====== Exiting bug.n ======
+2017-08-14 01:15:16 ====== Initializing ======
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#^+l::Manager_lockWorkStation()
+2017-08-14 01:15:16   Hotkey: #^+l -> Manager_lockWorkStation()
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#q::Reload
+2017-08-14 01:15:16   Hotkey: #q -> Reload
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+q::ExitApp
+2017-08-14 01:15:16   Hotkey: #+q -> ExitApp
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#w::Manager_activateMonitor(1)
+2017-08-14 01:15:16   Hotkey: #w -> Manager_activateMonitor(1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+w::Manager_setWindowMonitor(1)
+2017-08-14 01:15:16   Hotkey: #+w -> Manager_setWindowMonitor(1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#f::Manager_maximizeWindow()
+2017-08-14 01:15:16   Hotkey: #f -> Manager_maximizeWindow()
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#t::View_toggleFloating()
+2017-08-14 01:15:16   Hotkey: #t -> View_toggleFloating()
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#h::Monitor_activateView(<)
+2017-08-14 01:15:16   Hotkey: #h -> Monitor_activateView(<)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#l::Monitor_activateView(>)
+2017-08-14 01:15:16   Hotkey: #l -> Monitor_activateView(>)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+h::Monitor_setWindowTag(<)
+2017-08-14 01:15:16   Hotkey: #+h -> Monitor_setWindowTag(<)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+l::Monitor_setWindowTag(>)
+2017-08-14 01:15:16   Hotkey: #+l -> Monitor_setWindowTag(>)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#j::View_activateWindow(+1)
+2017-08-14 01:15:16   Hotkey: #j -> View_activateWindow(+1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#k::View_activateWindow(-1)
+2017-08-14 01:15:16   Hotkey: #k -> View_activateWindow(-1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+j::View_shuffleWindow(+1)
+2017-08-14 01:15:16   Hotkey: #+j -> View_shuffleWindow(+1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+k::View_shuffleWindow(-1)
+2017-08-14 01:15:16   Hotkey: #+k -> View_shuffleWindow(-1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#Enter::View_shuffleWindow(0)
+2017-08-14 01:15:16   Hotkey: #Enter -> View_shuffleWindow(0)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#+c::Manager_closeWindow()
+2017-08-14 01:15:16   Hotkey: #+c -> Manager_closeWindow()
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#9::View_setMFactor(-0.05)
+2017-08-14 01:15:16   Hotkey: #9 -> View_setMFactor(-0.05)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#0::View_setMFactor(+0.05)
+2017-08-14 01:15:16   Hotkey: #0 -> View_setMFactor(+0.05)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#,::View_setMSplit(+1)
+2017-08-14 01:15:16   Hotkey: #, -> View_setMSplit(+1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#.::View_setMSplit(-1)
+2017-08-14 01:15:16   Hotkey: #. -> View_setMSplit(-1)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#Space::View_setLayout(>)
+2017-08-14 01:15:16   Hotkey: #Space -> View_setLayout(>)
+2017-08-14 01:15:16 Processing configured hotkey: Config_hotkey=#o::Run, mintty
+2017-08-14 01:15:16   Hotkey: #o -> Run, mintty
+2017-08-14 01:15:17 Window ahk_id 0x10059c process '' doesn't match expected 'bugn.exe', forgetting this window
+2017-08-14 01:15:17 ====== Running ======
+2017-08-14 01:15:54 ====== Cleaning up ======
+2017-08-14 01:15:55 ====== Exiting bug.n ======
+2017-08-14 01:15:55 ====== Initializing ======
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#^+l::Manager_lockWorkStation()
+2017-08-14 01:15:55   Hotkey: #^+l -> Manager_lockWorkStation()
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#q::Reload
+2017-08-14 01:15:55   Hotkey: #q -> Reload
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+q::ExitApp
+2017-08-14 01:15:55   Hotkey: #+q -> ExitApp
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#w::Manager_activateMonitor(1)
+2017-08-14 01:15:55   Hotkey: #w -> Manager_activateMonitor(1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+w::Manager_setWindowMonitor(1)
+2017-08-14 01:15:55   Hotkey: #+w -> Manager_setWindowMonitor(1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#f::Manager_maximizeWindow()
+2017-08-14 01:15:55   Hotkey: #f -> Manager_maximizeWindow()
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#t::View_toggleFloating()
+2017-08-14 01:15:55   Hotkey: #t -> View_toggleFloating()
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#h::Monitor_activateView(<)
+2017-08-14 01:15:55   Hotkey: #h -> Monitor_activateView(<)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#l::Monitor_activateView(>)
+2017-08-14 01:15:55   Hotkey: #l -> Monitor_activateView(>)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+h::Monitor_setWindowTag(<)
+2017-08-14 01:15:55   Hotkey: #+h -> Monitor_setWindowTag(<)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+l::Monitor_setWindowTag(>)
+2017-08-14 01:15:55   Hotkey: #+l -> Monitor_setWindowTag(>)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#j::View_activateWindow(+1)
+2017-08-14 01:15:55   Hotkey: #j -> View_activateWindow(+1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#k::View_activateWindow(-1)
+2017-08-14 01:15:55   Hotkey: #k -> View_activateWindow(-1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+j::View_shuffleWindow(+1)
+2017-08-14 01:15:55   Hotkey: #+j -> View_shuffleWindow(+1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+k::View_shuffleWindow(-1)
+2017-08-14 01:15:55   Hotkey: #+k -> View_shuffleWindow(-1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#Enter::View_shuffleWindow(0)
+2017-08-14 01:15:55   Hotkey: #Enter -> View_shuffleWindow(0)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#+c::Manager_closeWindow()
+2017-08-14 01:15:55   Hotkey: #+c -> Manager_closeWindow()
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#9::View_setMFactor(-0.05)
+2017-08-14 01:15:55   Hotkey: #9 -> View_setMFactor(-0.05)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#0::View_setMFactor(+0.05)
+2017-08-14 01:15:55   Hotkey: #0 -> View_setMFactor(+0.05)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#,::View_setMSplit(+1)
+2017-08-14 01:15:55   Hotkey: #, -> View_setMSplit(+1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#.::View_setMSplit(-1)
+2017-08-14 01:15:55   Hotkey: #. -> View_setMSplit(-1)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#Space::View_setLayout(>)
+2017-08-14 01:15:55   Hotkey: #Space -> View_setLayout(>)
+2017-08-14 01:15:55 Processing configured hotkey: Config_hotkey=#o::Run, mintty
+2017-08-14 01:15:55   Hotkey: #o -> Run, mintty
+2017-08-14 01:15:57 Window ahk_id 0x2104a2 process '' doesn't match expected 'bugn.exe', forgetting this window
+2017-08-14 01:15:57 ====== Running ======
