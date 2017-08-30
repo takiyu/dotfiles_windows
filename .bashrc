@@ -57,3 +57,8 @@ alias v=gvim
 
 function gvim() { command gvim $1 & > /dev/null; disown; }
 function filer() { command explorer $1 & > /dev/null; disown; }
+
+export PATH=/usr/bin:/usr/local/bin:$PATH
+export PATH=~/dotfiles/bin:$PATH
+
+alias choco='cmd /c choco'
