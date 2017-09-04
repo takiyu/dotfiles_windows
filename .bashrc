@@ -62,3 +62,10 @@ export PATH=/usr/bin:/usr/local/bin:$PATH
 export PATH=~/dotfiles/bin:$PATH
 
 alias choco='cmd /c choco'
+
+# Proxy
+#export http_proxy="http://[user]:[pass]@proxyjp.huawei.com:8080"
+#export https_proxy="https://[user]:[pass]@proxyjp.huawei.com:8080"
+#export ftp_proxy="ftp://[user]:[pass]@proxyjp.huawei.com:8080"
+#export NO_PROXY="rnd-dockerhub.huawei.com"
+#export GIT_SSL_NO_VERIFY=1
