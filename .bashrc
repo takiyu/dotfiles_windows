@@ -63,6 +63,8 @@ export PATH=~/dotfiles/bin:$PATH
 
 alias choco='cmd /c choco'
 
+export GIT_PAGER=lv
+
 # Proxy
 #export http_proxy="http://[user]:[pass]@proxyjp.huawei.com:8080"
 #export https_proxy="https://[user]:[pass]@proxyjp.huawei.com:8080"
